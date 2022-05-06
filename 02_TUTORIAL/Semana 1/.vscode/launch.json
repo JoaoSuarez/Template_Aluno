@@ -4,12 +4,19 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    {
+        "name": "Attach to Chrome",
+        "port": 9222,
+        "request": "attach",
+        "type": "chrome",
+        "webRoot": "${workspaceFolder}"
+    },
     
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open index6.html",
-            "file": "c:\\Users\\joaof\\Downloads\\index6.html"
+            "name": "Open Exercicio movimento vertical.html",
+            "file": "c:\\Users\\joaof\\Downloads\\Exercicio movimento vertical.html"
         }
     ]
 }
